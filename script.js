@@ -11,9 +11,9 @@ class Reserva {
   
   const viajes = [];
   
-  viajes.push(new Reserva("Mario Gomez", "Cata de Vinos", 3000, "5/mayo/2023"));
-  viajes.push(new Reserva("Roberta Molina", "Visita al Obelisco", 15000, "15/Julio/2023"));
-  viajes.push(new Reserva("Maria Perez", "Paseo en Helicoptero", 9000, "23/Abril/2023"));
+  viajes.push(new Reserva("Mario Gomez", "Cata de vinos", 3000, "5/mayo/2023"));
+  viajes.push(new Reserva("Roberta Molina", "Visita al obelisco", 15000, "15/Julio/2023"));
+  viajes.push(new Reserva("Maria Perez", "Paseo en helicoptero", 9000, "23/Abril/2023"));
   viajes.push(new Reserva("Ivana Casas", "Disneyland", 28000, "18/Julio/2023"));
   
   console.log(viajes);
@@ -27,11 +27,11 @@ class Reserva {
       prompt(
         " Aqui puedes ver mas detalles de los paquetes solo Ingresa el nombre" +
           "\n" +
-          "Cata de Vinos" +
+          "Cata de vinos" +
           "\n" +
-          "Visita al Obelisco" +
+          "Visita al obelisco" +
           "\n" +
-          "Paseo en Helicoptero" +
+          "Paseo en helicoptero" +
           "\n" +
           "Disneyland"
       )
@@ -92,11 +92,11 @@ class Reserva {
   do {
     const paquete = Number(prompt("Ingrese el número del paquete turístico deseado:"+
     "\n" +
-          "1- Cata de Vinos" +
+          "1- Cata de vinos" +
           "\n" +
-          "2- Visita al Obelisco" +
+          "2- Visita al obelisco" +
           "\n" +
-          "3-Paseo en Helicoptero" +
+          "3-Paseo en helicoptero" +
           "\n" +
           "4- Disneyland"));
     const cuota = Number(prompt("Ingrese el número de cuotas en que desea pagar (1, 3, 6, 12):"));
